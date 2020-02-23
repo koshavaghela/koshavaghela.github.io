@@ -1,0 +1,42 @@
+.timeline {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.timeline:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  margin-right: -0.5px;
+  width: 1px;
+  background: #ccc;
+}
+
+.timeline-column {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.timeline-spacing {
+  padding-bottom: 65px;
+}
+
+@media (min-width: 992px) {
+  .timeline:after {
+    right: 50%;
+  }
+
+  .timeline-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

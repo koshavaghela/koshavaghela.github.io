@@ -1,0 +1,137 @@
+.nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  animation: background_white 0.75s;
+}
+
+.nav-transparent {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  animation: background_transparent 0.75s;
+}
+
+@media (min-width: 992px) {
+  .nav {
+    height: 80px;
+  }
+
+  .nav-transparent {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes background_transparent {
+  from {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes background_white {
+  from {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  to {
+    background-color: #fff;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.nav-mobile-menu-button {
+  position: absolute;
+  z-index: 1000;
+}
+
+.nav .nav-icon {
+  margin: 0 auto;
+  color: #890f3a;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-size: 28px;
+  padding: 5px 0;
+}
+
+.nav-transparent .nav-icon {
+  display: none;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-items {
+  padding-left: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-item:first-child {
+  margin-left: 0 !important;
+}
+
+.nav-transparent .nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #fff;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid #890f3a;
+}
+
+.nav-item:hover {
+  color: #000;
+  border-bottom: 1px solid #890f3a;
+  cursor: pointer;
+}
+
+.nav-transparent .nav-item:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
