@@ -64,10 +64,10 @@ class Header extends Component {
               <CSSTransition classNames="fade" timeout={700}>
                 <Fragment>
                   <h5 className="date">
-                    {new Intl.DateTimeFormat('sv-SE', {
-                      year: 'numeric',
+                    {new Intl.DateTimeFormat('en-US', {
                       month: 'long',
                       day: 'numeric',
+                      year: 'numeric',
                     }).format(new Date(date))}
                   </h5>
                   <Countdown date={date} className={'count-down'} />

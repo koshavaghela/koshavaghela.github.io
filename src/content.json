@@ -2,15 +2,15 @@
   "header": {
     "title": "Wedding",
     "names": ["Kosha", "Jaishiv"],
-    "date": "2030-10-05T14:00:00+02:00",
+    "date": "2020-01-03T14:00:00+02:00",
     "inputLabel": "Enter password",
     "images": [
-      "../images/header_1.jpg",
-      "../images/header_2.jpg",
-      "../images/header_1.jpg",
-      "../images/header_2.jpg",
-      "../images/header_1.jpg",
-      "../images/header_2.jpg"
+      "../images/ISP-149.jpg",
+      "../images/ISP-149.jpg",
+      "../images/ISP-149.jpg",
+      "../images/ISP-149.jpg",
+      "../images/ISP-149.jpg",
+      "../images/ISP-149.jpg"
     ],
     "imagesMobile": [
       "../images/header_1_mobile.jpg",
@@ -24,7 +24,16 @@
   "ourStory": {
     "id": "ourStory",
     "title": "Our Story",
-    "text": "## Wedding Ceremony\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Wedding Party\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Speeches\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n* Toastmaster, [toastmaster@gmail.com](mailto:toastmaster@gmail.com), 07X-XXX XX XX\n* Toastmadame, [toastmadame@gmail.com](mailto:toastmadame@gmail.com), 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Bus\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "text": "Insert Story Here"
+  },
+  "imageSep": {
+    "id": "image",
+    "image": "../images/ISP-37.jpg"
+  },
+  "info": {
+    "id": "info",
+    "title": "Schedule",
+    "text": ""
   },
   "timeline": [
     {
@@ -45,51 +54,54 @@
       "side": "right"
     }
   ],
-  "info": {
-    "id": "info",
-    "title": "Info",
-    "text": "## Wedding Ceremony\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Wedding Party\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Speeches\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n* Toastmaster, [toastmaster@gmail.com](mailto:toastmaster@gmail.com), 07X-XXX XX XX\n* Toastmadame, [toastmadame@gmail.com](mailto:toastmadame@gmail.com), 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Bus\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  "imageSepOne": {
+    "id": "image",
+    "image": "../images/ISP-110.jpg"
+  },
+  "location": {
+    "id": "location",
+    "title": "Locations",
+    "text": ""
   },
   "map": {
     "id": "map",
     "title": "Map",
     "center": {
-      "lat": 55.76578,
-      "lng": 13.26489
+      "lat": 22.900952,
+      "lng": 72.781813
     },
     "locations": [
       {
         "id": "wedding",
         "title": "Ceremony",
-        "text": "**When:** 14:00\n\n**Where:** Borlunda Kyrka, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/emwCfHeKa6F2)",
+        "text": "**When:** 01.03.2020\n\n**Where:** Boulevard 9 Resort & Spa - Nadiad\n\n**Link:** [Google Maps](https://g.page/boulevard9-luxury-resort-spa?share)",
         "icon": "rings",
-        "latitude": "55.800718",
-        "longitude": "13.3227702",
-        "link": "https://goo.gl/maps/emwCfHeKa6F2"
+        "latitude": "22.687936",
+        "longitude": "72.838805",
+        "link": "https://g.page/boulevard9-luxury-resort-spa?share"
       },
       {
         "id": "party",
-        "title": "Party",
-        "text": "**Where:** Ellinge slott, Ellinge Gård, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/ZDo9Vwz5Jok)",
+        "title": "Reception",
+        "text": "**When:** 01.04.2020\n\n**Where:** Zala Farm - Ahmedabad\n\n**Link:** [Google Maps](https://goo.gl/maps/pbF1UL43nfyPMmn18)",
         "icon": "wine-glasses",
-        "latitude": "55.81167275",
-        "longitude": "13.287460530674393",
-        "link": "https://goo.gl/maps/ZDo9Vwz5Jok"
+        "latitude": "23.191208",
+        "longitude": "72.613406",
+        "link": "https://goo.gl/maps/pbF1UL43nfyPMmn18"
       }
     ]
   },
+  "imageSepTwo": {
+    "id": "image",
+    "image": "../images/ISP-55.jpg"
+  },
   "miscInfo": {
     "id": "miscInfo",
-    "title": "More Info",
-    "text": "## Brunch\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n## Accomodation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "title": "Accomodation",
+    "text": "## Accomodation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "modalButton": "Read more about accomodation",
     "modalTitle": "Accomodation",
     "modalText": "**Lorem ipsum dolor sit amet** consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  },
-  "wishlist": {
-    "id": "wishlist",
-    "title": "Wishlist",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "rsvp": {
     "id": "rsvp",
@@ -97,20 +109,13 @@
     "forms": [
       {
         "id": "wedding-form",
-        "title": "Wedding",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "buttonText": "Open sign-up form",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhXgh2KI8hz0dqCJlRqPib3kot-gEtBD9-xnySjaNRDncm5Q/viewform?embedded=true"
-      },
-      {
-        "id": "speech-form",
-        "title": "Speech",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "buttonText": "Open sign-up form",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhXgh2KI8hz0dqCJlRqPib3kot-gEtBD9-xnySjaNRDncm5Q/viewform?embedded=true"
+        "title": "Wedding & Reception RSVP",
+        "text": "Please RSVP by - this date -",
+        "buttonText": "RSVP HERE",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdMfwV10quxkViPnem8Qa-FUP1lfttSvhuQo82OmoIaP3dgRQ/viewform?embedded=true"
       }
     ],
-    "endDate": "2030-10-05T14:00:00+02:00"
+    "endDate": "2020-10-05T14:00:00+02:00"
   },
   "imageUpload": {
     "id": "imageUpload",
@@ -124,15 +129,10 @@
         "url": "https://www.dropbox.com/request/yourId"
       }
     ],
-    "startDate": "2030-10-05T14:00:00+02:00"
-  },
-  "contact": {
-    "id": "contact",
-    "title": "Contact Us",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:\n* Alice: 07X-XXX XX XX\n* Bob: 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua: [wedding@gmail.com](mailto:wedding@gmail.com)"
+    "startDate": "2020-10-05T14:00:00+02:00"
   },
   "footer": {
     "id": "footer",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "text": "Made with love by Kosha Vaghela"
   }
 }

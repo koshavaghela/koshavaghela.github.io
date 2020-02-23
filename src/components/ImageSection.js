@@ -4,13 +4,13 @@ import './ImageSection.css'
 
 const ImageSection = ({ title, text, image, id, childComponent }) => (
   <section className="image-section" id={id}>
+    <img src={image} alt="" />
     <div className="image-section-text-wrapper">
       <div className="image-section-heading">
-        <h2>{title}</h2>
       </div>
       {text && (
         <ReactMarkdown
-          source={text}
+          source={image}
           className="image-section-text"
           linkTarget="_blank"
         />

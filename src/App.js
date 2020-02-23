@@ -42,7 +42,6 @@ class App extends Component {
               'info',
               'map',
               'miscInfo',
-              'wishlist',
               'rsvp',
               'imageUpload',
             ]
@@ -70,15 +69,26 @@ class App extends Component {
           <div className="app-content">
             <Section
               {...content.ourStory}
+            />
+            <ImageSection 
+              id={content.imageSep.id}
+              image={content.imageSep.image} />
+            <Section {...content.info}
               childComponent={<Timeline items={content.timeline} />}
             />
-            <Section {...content.info} />
+            <ImageSection 
+              id={content.imageSepOne.id}
+              image={content.imageSepOne.image} />
+            <Section {...content.location} />
             <MapSection
               center={content.map.center}
-              zoom={11}
+              zoom={9}
               locations={content.map.locations}
               id={content.map.id}
             />
+            <ImageSection 
+              id={content.imageSepTwo.id}
+              image={content.imageSepTwo.image} />
             <Section
               title={content.miscInfo.title}
               text={content.miscInfo.text}
@@ -91,14 +101,12 @@ class App extends Component {
                 />
               }
             />
-            <Section {...content.wishlist} />
             {this.isFuture(content.rsvp.endDate) && (
               <FormsSection {...content.rsvp} />
             )}
             {!this.isFuture(content.imageUpload.startDate) && (
               <FormsSection {...content.imageUpload} newWindow />
             )}
-            <Section {...content.contact} />
             <Section {...content.footer} />
           </div>
         )}

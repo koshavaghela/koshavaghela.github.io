@@ -10,7 +10,7 @@ class MobileMenu extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.open !== this.state.open) {
       this.setState({ open: nextProps.open })
     }
