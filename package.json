@@ -2,8 +2,10 @@
   "name": "koshavaghela.github.io",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://koshavaghela.github.io",
   "dependencies": {
     "braces": "^2.3.2",
+    "gh-pages": "^2.2.0",
     "google-map-react": "^1.1.2",
     "handlebars": "^4.3.0",
     "js-yaml": "^3.13.1",
@@ -22,6 +24,8 @@
     "yarn": "^1.22.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,7 +36,6 @@
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
     "not ie <= 11",
     "not op_mini all"
   ],
