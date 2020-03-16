@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To run it you need to install [NodeJS](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/lang/en/docs/install).
 
-Deployed via Heroku: https://koshajaishiv.herokuapp.com/
+Deployed via Heroku: https://koshajaishiv.herokuapp.com/ (pass: jkwedding)
 
 ## Available Scripts
 
