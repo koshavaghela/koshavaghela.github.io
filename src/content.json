@@ -24,7 +24,7 @@
   "ourStory": {
     "id": "ourStory",
     "title": "Our Story",
-    "text": "Insert Story Here"
+    "text": "Jaishiv and I met at our really good friends wedding (we were both part of their wedding party). The day before the wedding, there was a welcome party at a brewery. With a little of liquid courage, I (Kosha) had asked Jaishiv for his number with the excuse of wanting to coordinate a toast with the wedding party and the Bride and Groom. We hit it off immediately and the rest is history."
   },
   "imageSep": {
     "id": "image",
@@ -37,20 +37,21 @@
   },
   "timeline": [
     {
-      "date": "2011-09-01",
-      "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "../images/1000x500.png",
+      "date": "01-04-2020 4:30pm",
+      "text": "**Baarat**, the Groom is led to the marriage venue in a procession aaccompanied by family members, groomsmen, and friends known as baraatis.",
+      "image": "../images/baraat.png",
       "side": "left"
     },
     {
-      "date": "2017-11-20",
-      "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "date": "01-04-2020 6:00pm",
+      "text": "**Ceremony**, the Hindu wedding ceremony is a union of two souls. THe rituals of the ceremony are based on the hymns contained in the Vedas, scared Hindu scriptures. The ceremony is consecrated in the presence of God, as represented by the five elements of nature, which play an integral role in the ceremony.",
+      "image": "../images/ceremony.jpeg",
       "side": "right"
     },
     {
-      "date": "2019-02-20",
-      "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "../images/1000x500.png",
+      "date": "01-05-2020 7:00pm",
+      "text": "**Reception**, a celebration time for both the families as they rejoice over their new accord. The reception ceremony also serves as an opportunity for the bride to know the acquaintances and associates of the groom's family..",
+      "image": "../images/reception.jpeg",
       "side": "right"
     }
   ],
@@ -98,10 +99,10 @@
   "miscInfo": {
     "id": "miscInfo",
     "title": "Accomodation",
-    "text": "## Accomodation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "text": "## Boulevard 9 Resort & Spa\n Please click below for more information on how to book a room.",
     "modalButton": "Read more about accomodation",
-    "modalTitle": "Accomodation",
-    "modalText": "**Lorem ipsum dolor sit amet** consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "modalTitle": "Boulevard 9 Resort & Spa",
+    "modalText": "**Website**: https://www.boulevard9.in/\n\n**Location**: Pij Cross Road, NH228, Nadiad, Gujarat 387002, India\n\n**Phone Number**: +91 268 253 3000."
   },
   "rsvp": {
     "id": "rsvp",
@@ -110,7 +111,7 @@
       {
         "id": "wedding-form",
         "title": "Wedding & Reception RSVP",
-        "text": "Please RSVP by - this date -",
+        "text": "Please RSVP by - December 1st 2019 -",
         "buttonText": "RSVP HERE",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSdMfwV10quxkViPnem8Qa-FUP1lfttSvhuQo82OmoIaP3dgRQ/viewform?embedded=true"
       }
